@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+__pycache__/
+
+# Ignore Vercel-related files
+.vercel/
+
+
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.sqlite3
+
+# Ignore files used for development only
+steps.txt
