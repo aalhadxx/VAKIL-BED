@@ -79,7 +79,7 @@ embeddings = TogetherAIEmbeddings(
 )
 
 # Load your PDF document
-pdf_path = r"F:\coding\chatbots\VAKIL\BNS.pdf"
+pdf_path = "BNS.pdf"
 loader = PyPDFLoader(pdf_path)
 documents = loader.load()
 
